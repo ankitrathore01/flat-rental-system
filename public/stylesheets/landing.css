@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;900&family=Poppins:wght@200;700&display=swap');
+body{
+	font-family: 'Nunito Sans', sans-serif;
+	color: white;
+}
+
+#madre-image{
+	background-image: url("https://images.unsplash.com/photo-1527030280862-64139fba04ca?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1812&q=80");
+	min-height: 800px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#header{
+	background-color: #1f7a8c;
+	height: 50px;
+	text-align: center;
+	margin-top:80px;
+}
+
+#footer{
+	color: black;
+	background-color: #6cb5fa;
+	height: 50px;
+	margin-top: 50px;
+}
+
+.fab{
+	padding: 15px;
+	color: white;
+	font-size: 20px;
+}
+
+.fab:hover{
+	color:#A29160;
+	background-color:white;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	margin: 8px;
+	margin-top: 20px;
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #906bff;
+}
+
+.navbar-light .navbar-brand:hover{
+	color: white;
+}
+
+.navbar-light .navbar-brand{
+	color: white;
+}
+
+.navbar-brand{
+	font-family: 'Poppins', sans-serif;
+	color: #5F0038;
+	font-size: 3.0em;
+	font-weight: bold;
+	margin: 40px;
+	margin-right: 150px;
+}
+
+.navbar{
+	height: 80px;
+	background-color: #022b3a;
+}
+
+.form{
+	margin-top: 50px;
+	background-color: #f2f2f2;
+}
+
+.names input{
+	float: left;
+}
+
+nav.shrink{
+	background-color: #1f7a8c;
+	color: white;
+	height: 60px;
+	padding-top: 0px;
+}
+
+nav.shrink.navbar-brand{
+	font-size: 20px;
+	padding: 30px 0px 0px 80px;
+	color: white;
+}
+
+nav.shrink>li>a{
+	color: white;
+	font-size: 16px;
+	padding-top: 30px;
+}
+
+/* .navbar.scrolled{
+	background: #515151;
+	color: white;
+	transition: background 300ms;
+	transition: color 300ms;
+} */

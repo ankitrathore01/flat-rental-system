@@ -1,0 +1,29 @@
+<% include partials/header.ejs %>
+<div class="container form">
+    <div class="row">
+		<div class="col-md-7" style="padding: 0;">
+			<img	src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" style="width: 100%; height:100%;">
+            <!--https://www.travelingmom.com/wp-content/uploads/2018/10/corner-suite-how-to-get-a-room-at-a-sold-out-hotel.jpg-->
+			<!-- <img src="https://webbox.imgix.net/images/oysirpplvzyyvxee/64a633f9-e226-40c8-ad58-00a137e22f62.jpg?								auto=format,compress&fit=crop&crop=entropy" style="width:100%; height:100%;"> -->
+		</div>
+        <div class="col-md-5" style="padding: 0;">
+            <form action="/login" method="POST" style="width: 60%; margin: 170px auto;">
+				<div class="form-group">
+                    <input class="form-control" type="text" placeholder="Username" name="username" required>
+                </div>
+				<div class="form-group">
+                    <input class="form-control" type="password" placeholder="Password" name="password" required>
+                </div>
+				<div class="form-group">
+                    <button class="btn btn-sm btn-primary btn-block" style="margin:0; margin-bottom:30px; background-color:#A29160; color:white;">
+						LogIn
+					</button>
+                </div>
+				<div class="form-group" style="text-align: center;">
+					<p style="padding:0; color:#495057;">Not a Member? <a href="/signup">SignUp</a></p>
+				</div>
+            </form> 
+        </div>
+    </div>
+</div>
+<% include partials/footer.ejs %>
