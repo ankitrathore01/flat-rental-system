@@ -9,7 +9,7 @@ var express 	 = require("express"),
 	Property	 = require("./models/property"),
 	Review  	 = require("./models/review")
 
-mongoose.connect("mongodb+srv://sandhuamar07:%24andhU01@cluster0-r8cvl.mongodb.net/test?retryWrites=true&w=majority", {
+mongoose.connect("server details", {
 	useNewUrlParser : true,
 	useUnifiedTopology : true
 }).then( () => {
